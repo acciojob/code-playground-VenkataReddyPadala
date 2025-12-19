@@ -4,7 +4,7 @@ function Login({ setLoggedIn, loggedIn }) {
     <>
       <p>login</p>
       <button onClick={() => setLoggedIn((cur) => !cur)}>
-        {loggedIn ? "Logout" : "Login"}
+        {loggedIn ? "Log out" : "Log in"}
       </button>
     </>
   );
